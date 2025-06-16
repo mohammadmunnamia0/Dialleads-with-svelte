@@ -2,7 +2,7 @@
   const navLinks = ["Real estate", "E-commerce", "Home Service", "Dentist"];
 </script>
 
-<nav class="text-white px-12 py-6 flex justify-between items-center bg-[#0a021a] mt-2 mb-0 mx-2 px-8 rounded-tl-xl rounded-tr-xl "
+<nav class="text-white lg:px-[110px] py-4 lg:py-1 flex justify-between items-center bg-[#0a021a] mt-2 mb-0 mx-3 px-8 rounded-tl-xl rounded-tr-xl "
 >
   
   <div class="flex items-center space-x-2">
@@ -11,9 +11,9 @@
   </div>
 
 
-  <ul class="hidden md:flex gap-12 text-md font-medium">
+  <ul class="hidden justify-between md:flex gap-14 text-md font-medium">
     {#each navLinks as link}
-      <li class="cursor-pointer hover:text-purple-400 transition">{link}</li>
+      <li class="cursor-pointer text-gray-300 hover:text-purple-400 transition">{link}</li>
     {/each}
   </ul>
 

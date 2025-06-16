@@ -9,7 +9,7 @@
 <!-- Body Main Components -->
 <main>
 	<Navbar />
-	<section class="bg-[#0a021a] mx-2 rounded-bl-xl rounded-br-xl ">
+	<section class="bg-[#0a021a] mx-3 rounded-bl-xl rounded-br-xl ">
 		<Hero />
 	</section>
     <StatsHighlight/>

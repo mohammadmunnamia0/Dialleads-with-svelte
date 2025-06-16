@@ -7,15 +7,19 @@
 </script>
 
 <main>
-	<section class="relative mx-auto px-4 sm:px-6 lg:px-8">
-		<img src="/Hero/Banner.png" alt="Hero Banner" class="lg:w-full h-40 lg:h-full rounded-xl" />
+	<section class="relative mx-auto px-1 sm:px-6 lg:px-8">
+		<img
+			src="/Hero/Banner.png"
+			alt="Hero Banner"
+			class="lg:w-full h-60 lg:h-full rounded-xl object-cover object-left w-full"
+		/>
 
 		<div class="absolute inset-0 flex justify-center items-center">
 			<button
 				on:click={() => (showModal = true)}
-				class="bg-white/20 backdrop-blur-md p-4 rounded-full hover:bg-white/30 transition"
+				class="bg-white/20 backdrop-blur-md p-4 border border-violet-700 rounded-full hover:bg-white/30 transition"
 			>
-				<Icon icon="mdi:play-circle" class="text-purple-500" width="64" height="64" />
+				<Icon icon="mdi:play" class="text-violet-700" width="64" height="64" />
 			</button>
 		</div>
 	</section>
