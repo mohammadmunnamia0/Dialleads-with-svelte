@@ -25,7 +25,7 @@
 					Human-Like
 				</span>
 				<br />
-				<span class="text-violet-700">AI Phone Calls</span>
+				<span class="text-violet-700 text-[40px] sm:text-5xl md:text-6xl">AI Phone Calls</span>
 			</h1>
 
 			<p class="text-lg text-gray-300">
