@@ -8,12 +8,15 @@
 
 <!-- Body Main Components -->
 <main>
-	<Navbar />
-	<section class="bg-[#0a021a] mx-3 rounded-bl-xl rounded-br-xl ">
-		<Hero />
-	</section>
-    <StatsHighlight/>
-    <Features/>
+	
+		
+		<section class=" lg:h-[987px] bg-[url('/Hero/HeroBg.png')] bg-cover bg-center bg-no-repeat mx-3 rounded-xl">
+			<Navbar />
+			<Hero />
+		</section>
+
+	<StatsHighlight />
+	<Features />
 </main>
 
 <!-- Style -->

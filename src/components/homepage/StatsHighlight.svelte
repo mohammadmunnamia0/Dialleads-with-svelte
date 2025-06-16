@@ -13,13 +13,16 @@
 
 	<div class="w-full overflow-hidden">
 		<div
-			class="grid grid-cols-4 justify-items-center items-center gap-8 sm:gap-16 slide-container"
+			class="grid grid-cols-6 justify-items-center items-center gap-4 sm:gap-16 slide-container"
 			style="background: linear-gradient(242deg, rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0.08) 100%);"
 		>
+			<img src="/Stats/1.png" alt="Edistys" class={statImgClass} />
+			<img src="/Stats/2.png" alt="Bloomberg" class={statImgClass} />
 			<img src="/Stats/3.png" alt="Edistys" class={statImgClass} />
 			<img src="/Stats/4.png" alt="Bloomberg" class={statImgClass} />
 			<img src="/Stats/5.png" alt="Forbes" class={statImgClass} />
 			<img src="/Stats/6.png" alt="GIZMODO" class={statImgClass} />
+			
 			
 		</div>
 	</div>

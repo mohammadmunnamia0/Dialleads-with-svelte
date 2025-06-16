@@ -35,13 +35,15 @@
 			<div>
 				<div>
 					<button
-						class="mt-6 lg:mt-2 sm:mt-4 inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-violet-700 to-violet-400 px-5 py-2 rounded-xl text-white text-[18px] font-medium border-2 border-violet-400 hover:opacity-90 transition cursor-pointer"
+						class="mt-6 lg:mt-2 sm:mt-4 inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-violet-700 to-violet-400 px-5 rounded-xl text-white text-[18px] font-medium border-2 border-violet-400 hover:opacity-90 transition cursor-pointer"
 					>
 						<img src="/Icon/Gmail.png" alt="Gmail" width="18" height="18" />
 						Contact Sales
 					</button>
+					
 				</div>
 			</div>
+			
 		</section>
 		<section class="mt-16 sm:mt-28">
 			<HeroBanner />
