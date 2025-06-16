@@ -7,7 +7,7 @@
 <!-- Body Main Components -->
 <main>
 	<Navbar />
-	<section class="bg-[#0a021a] rounded-xl">
+	<section class="bg-[#0a021a] mx-2 ">
 		<Hero />
 	</section>
 </main>

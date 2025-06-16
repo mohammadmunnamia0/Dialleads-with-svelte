@@ -3,7 +3,7 @@
 	import HeroBanner from './HeroBanner.svelte';
 </script>
 
-<main class="min-h-screen text-white flex flex-col items-center justify-center px-4">
+<main class="min-h-screen text-white flex flex-col items-center justify-center pt-20">
 	<section class="w-full max-w-7xl mx-auto">
 		<section class="text-center max-w-3xl mx-auto space-y-6">
 			<div

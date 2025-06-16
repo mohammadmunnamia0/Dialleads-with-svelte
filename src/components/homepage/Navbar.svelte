@@ -2,7 +2,7 @@
   const navLinks = ["Real estate", "E-commerce", "Home Service", "Dentist"];
 </script>
 
-<nav class="text-white px-12 py-6 flex justify-between items-center bg-[#0a021a] mt-2 mb-0 mx-2 rounded-xl"
+<nav class="text-white px-12 py-6 flex justify-between items-center bg-[#0a021a] mt-2 mb-0 mx-2 px-8 rounded-tl-xl rounded-tr-xl "
 >
   
   <div class="flex items-center space-x-2">
