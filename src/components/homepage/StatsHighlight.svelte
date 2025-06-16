@@ -1,20 +1,20 @@
 <script>
-	// You will need to replace these with actual image paths
-	const logos = [
-		{ src: '/stats/1.png', alt: 'Tech Marvels' },
-		{ src: '/stats/2.png', alt: 'Horizon' },
-		{ src: '/stats/3.png', alt: 'Edistys' }
-	];
+    const statImgClass = "h-10 filter grayscale opacity-70";
 </script>
 
 <div class="flex flex-col items-center py-8 text-center bg-white">
-	<h2 class="text-2xl font-bold text-gray-800 mb-12 max-w-3xl">
-		Dail Leads <span class="text-purple-700">Powers 10M+ ROI</span>-positive Customer Interactions
-		per Month
-	</h2>
-	<div class="flex justify-center items-center flex-wrap gap-16">
-		{#each logos as logo (logo.src)}
-			<img src={logo.src} alt={logo.alt} class="h-12 filter grayscale opacity-70" />
-		{/each}
+<h2 class="text-[22px] font-bold text-gray-800 mb-12 max-w-3xl">
+  Dial Leads
+  <span class="bg-gradient-to-r from-purple-600 to-purple-400 bg-clip-text text-transparent">
+    Powers 10M+ ROI
+  </span>
+  -positive Customer Interactions per Month
+</h2>
+
+	<div class="grid grid-cols-4 justify-items-center items-center gap-16">
+		<img src="/Stats/1.png" alt="Tech Marvels" class={statImgClass} />
+		<img src="/Stats/2.png" alt="Horizon" class={statImgClass} />
+		<img src="/Stats/3.png" alt="Edistys" class={statImgClass} />
+		<img src="" alt="" class={statImgClass} />
 	</div>
 </div>
