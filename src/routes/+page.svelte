@@ -1,5 +1,6 @@
 <!-- Script Imports -->
 <script>
+	import Features from '../components/homepage/Features/Features.svelte';
 	import Hero from '../components/homepage/Hero.svelte';
 	import Navbar from '../components/homepage/Navbar.svelte';
 	import StatsHighlight from '../components/homepage/StatsHighlight.svelte';
@@ -12,6 +13,7 @@
 		<Hero />
 	</section>
     <StatsHighlight/>
+    <Features/>
 </main>
 
 <!-- Style -->
