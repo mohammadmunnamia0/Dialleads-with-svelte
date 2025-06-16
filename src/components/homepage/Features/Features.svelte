@@ -9,9 +9,13 @@
       ✨ Features
     </span>
   </div>
-  <h2 class="text-5xl font-bold mb-12">
-    Why Diallead's AI Voice Assistants?
-  </h2>
+ <h2 class="text-4xl lg:text-5xl font-bold mb-12 text-center">
+  Why Diallead's AI
+  <br class="block lg:hidden" />
+  <span class="hidden lg:inline"> </span>
+  Voice Assistants?
+</h2>
+
 
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto px-4">
     {#each features as { icon, title, description }}

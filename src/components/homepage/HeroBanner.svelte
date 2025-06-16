@@ -8,20 +8,20 @@
 
 <main>
 	<section class="relative mx-auto px-4 sm:px-6 lg:px-8">
-		<img src="/Hero/Banner.png" alt="Hero Banner" class="w-full rounded-xl" />
+		<img src="/Hero/Banner.png" alt="Hero Banner" class="lg:w-full h-40 lg:h-full rounded-xl" />
 
 		<div class="absolute inset-0 flex justify-center items-center">
 			<button
 				on:click={() => (showModal = true)}
 				class="bg-white/20 backdrop-blur-md p-4 rounded-full hover:bg-white/30 transition"
 			>
-				<Icon icon="mdi:play-circle-outline" class="text-white" width="64" height="64" />
+				<Icon icon="mdi:play-circle" class="text-purple-500" width="64" height="64" />
 			</button>
 		</div>
 	</section>
 
 	{#if showModal}
-		<div class="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4">
+		<div class="fixed inset-0 bg-black/70 flex items-center justify-center lg:z-50 p-4">
 			<div class="relative w-full max-w-3xl aspect-video">
 				<iframe
 					class="w-full h-full rounded-xl"
