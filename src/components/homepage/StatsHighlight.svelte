@@ -11,13 +11,36 @@
 		-positive Customer Interactions per Month
 	</h2>
 
-	<div
-		class="grid grid-cols-4 justify-items-center items-center gap-8 sm:gap-16"
-		style="background: linear-gradient(242deg, rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0.08) 100%);"
-	>
-		<img src="/Stats/1.png" alt="Tech Marvels" class={statImgClass} />
-		<img src="/Stats/2.png" alt="Horizon" class={statImgClass} />
-		<img src="/Stats/3.png" alt="Edistys" class={statImgClass} />
-		<img src="" alt="" class={statImgClass} />
+	<div class="w-full overflow-hidden">
+		<div
+			class="grid grid-cols-4 justify-items-center items-center gap-8 sm:gap-16 slide-container"
+			style="background: linear-gradient(242deg, rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0.08) 100%);"
+		>
+			<img src="/Stats/1.png" alt="Tech Marvels" class={statImgClass} />
+			<img src="/Stats/2.png" alt="Horizon" class={statImgClass} />
+			<img src="/Stats/3.png" alt="Edistys" class={statImgClass} />
+			<img src="" alt="" class={statImgClass} />
+		</div>
 	</div>
 </div>
+
+<style>
+	.slide-container {
+		animation: slide 15s linear infinite;
+	}
+
+	@keyframes slide {
+		from {
+			transform: translateX(100%);
+		}
+		to {
+			transform: translateX(-100%);
+		}
+	}
+
+	@media (min-width: 640px) {
+		.slide-container {
+			animation: none;
+		}
+	}
+</style>

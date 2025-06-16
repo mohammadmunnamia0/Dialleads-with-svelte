@@ -1,8 +1,8 @@
 export const features = [
   {
     icon: "mdi:sparkles",
-    title: "Easy Setup",
-    description: "Quickly and effortlessly connect AI voice assistants to your CRM and streamline all your calls.",
+    title: "Quick & Easy Setup",
+    description: "Set up AI voice assistants in minutes by integrating with your existing CRM for seamless AI Phone Calls.",
   },
   {
     icon: "mdi:account-voice",

@@ -5,7 +5,7 @@
 
 <section class="py-16 text-center bg-white">
   <div class="mb-6">
-    <span class="inline-block px-4 py-1 border border-gray-300 rounded-full text-sm text-gray-600">
+    <span class="inline-block px-4 py-1 border border-gray-300 rounded-full text-2xl lg:text-md text-gray-600">
       ✨ Features
     </span>
   </div>
@@ -21,8 +21,8 @@
     {#each features as { icon, title, description }}
       <div class="p-6 rounded-2xl bg-white text-left shadow-sm hover:shadow-md transition">
         <Icon icon={icon} width="36" height="36" class="text-purple-500 mb-4" />
-        <h3 class="text-lg font-semibold mb-2">{title}</h3>
-        <p class="text-gray-600 text-sm">{description}</p>
+        <h3 class="text-[22px] lg:text-[26px] font-semibold mb-2">{title}</h3>
+        <p class="text-[18px] text-gray-600 text-sm">{description}</p>
       </div>
     {/each}
   </div>
